@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* Typo */
   --font-size:20px;
@@ -14,6 +20,7 @@
   --background-color: whitesmoke;
   --text-color:whitesmoke;
   --footer-color:red;
+  
 
 }
 
@@ -25,20 +32,25 @@ nav{
 nav a {
   color: var(--text-color);
   display: block;
-  padding: var(--padding20);        
+  padding: var(--padding20); 
+  
+  
 }
 
 h1 {
-  color: var(--primary-color);  
+  color: var(--primary-color);
+  margin: var(--margin30);     
 }
 
 main img {
+  float: right;
   margin: 0 0 10px 15px;
   width: 150px;
   height: auto;
   border: 1px solid var(--accent-color);
   padding: 2px;
-  box-shadow: 0 0 var(--margin30) gray;  
+  box-shadow: 0 0 var(--margin30) gray; 
+      
 }
 
 p { 
@@ -56,21 +68,38 @@ main {
   font-size: var(--font-size); 
 }
 
-aside {
-  max-width: 900px;
+ul {
+  list-style-type: none;
+  padding: 0;
   margin: var(--margin30);
-  border: 5px solid var(--background-color);
-  padding: var(--padding20);
-  background-color: var(--primary-color);
   color: var(--text-color);
-  text-align: var(--text-align);
+  
+}
+
+ul li a {
+  padding-left: var(--padding20);
+  margin: 20px;
+  color: var(--text-color);
+
+}
+
+aside {
+  position: relative;
+  max-width: 900px;
   font-size: var(--font-size); 
 }
 
 aside img{
   max-width: 200px;
   height: auto;
+  margin: var(--margin30);
 
+}
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 387px;
+  color: var(--primary-color);
 }
 
 footer {
@@ -80,4 +109,15 @@ footer {
   background-color: var(--footer-color);
   text-align: var(--text-align);
   font-size: var(--font-size); 
+}
+
+/* class selectors */
+
+.box{
+  margin: var(--margin30);
+  border: 1px solid var(--background-color);
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-align: var(--text-align);
 }
