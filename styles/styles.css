@@ -86,6 +86,7 @@ ul li a {
 aside {
   position: relative;
   max-width: 900px;
+  height: auto;
   font-size: var(--font-size); 
 }
 
