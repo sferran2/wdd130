@@ -13,29 +13,25 @@
   --padding20: 20px;
   --margin30: 30px;
 
-  /* colors */
-  --primary-color:darkblue;
-  --second-color: goldenrod;
-  --accent-color:rgb(17,43,189);
-  --background-color: whitesmoke;
-  --text-color:whitesmoke;
-  --footer-color:red;
-  
-
-}
-
-nav{
-  background-color: var(--primary-color);
-  padding: 10px; 
-}
-
-nav a {
-  color: var(--text-color);
-  display: block;
-  padding: var(--padding20); 
-  
-  
-}
+   /* colors */
+   --primary-color:darkblue;
+   --second-color: goldenrod;
+   --accent-color:rgb(17,43,189);
+   --background-color: whitesmoke;
+   --text-color:whitesmoke;
+   --footer-color:red;
+ }
+ 
+ nav{
+   background-color: var(--primary-color);
+   padding: 10px; 
+ }
+ 
+ nav a {
+   color: var(--text-color);
+   display: block;
+   padding: var(--padding20);  
+ }   
 
 h1 {
   color: var(--primary-color);
