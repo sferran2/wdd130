@@ -87,7 +87,7 @@ p {
     bottom: 70px;
     left: 820px;
     background-color: var(--background2);
-    color: #345511;
+    color: var(--primary-color);
     padding: var(--padding20);
     border-radius: 5px;
     max-width: 300px;
