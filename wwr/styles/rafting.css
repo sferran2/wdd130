@@ -1,6 +1,6 @@
 :root {
     /* Typo */
-    --font-size:20px;
+    --font-size:30px;
     --text-align:center;
   
     /* Spacing */
@@ -8,12 +8,12 @@
     --margin30: 30px;
   
     /* colors */
-    --primary-color: #1790a7;
+    --primary-color: #093239;
     --second-color: #D5D6AA;
     --accent-color1: #769FB6;
     --background1: #E2DBBE;
     --background2: #9dbbaf;
-    --text-color1: #345511;
+    --text-color1: #2C480E;
 }
 
 body {
@@ -34,7 +34,7 @@ h1{
 }
 
 h2{
-    color:rgb(224, 91, 113);
+    color:#811828;
     margin: var(--margin30);
 }
 
