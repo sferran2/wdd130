@@ -30,7 +30,10 @@
  nav a {
    color: var(--text-color);
    display: block;
-   padding: var(--padding20);  
+   padding: var(--padding20); 
+   text-decoration: none;
+   display: inline-block;
+    
  }   
 
 h1 {
@@ -40,9 +43,9 @@ h1 {
 
 main img {
   float: right;
-  margin: 0 0 10px 15px;
-  width: 150px;
-  height: auto;
+  display: block;
+  margin:10px auto;
+  max-width: 100%;
   border: 1px solid var(--accent-color);
   padding: 2px;
   box-shadow: 0 0 var(--margin30) gray; 
@@ -76,6 +79,7 @@ ul li a {
   padding-left: var(--padding20);
   margin: 20px;
   color: var(--text-color);
+  list-style-type: none;
 
 }
 
@@ -100,8 +104,9 @@ aside h2 {
 }
 
 footer {
-  width: 980px;
-  margin-top: 15px;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 15px auto;
   border-top: 1px solid black;
   background-color: var(--footer-color);
   text-align: var(--text-align);
@@ -117,4 +122,66 @@ footer {
   background-color: var(--primary-color);
   color: var(--text-color);
   text-align: var(--text-align);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--accent-color);
+  padding: 10px 20px;
+}
+
+.logo-container{
+  flex-shrink: 0;
+}
+
+.logo{
+  width: 60px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.nav{
+  flex-grow: 1;
+  text-align: right;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+
+}
+
+.nav-list li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+  list-style-type: none;
+}
+
+.nav-list li a:hover {
+  background-color: #ccc;
+  color: #000;
+  list-style-type: none;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.hero img {
+  flex: 1 1 auto;
+  max-width: 300px;
+  height: auto;
 }
