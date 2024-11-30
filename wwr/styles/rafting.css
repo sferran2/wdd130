@@ -180,7 +180,6 @@ body {
     object-fit: cover;
 }
 
-
 section img {
     border-radius: 5px;
     margin: 10px;
@@ -188,46 +187,47 @@ section img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.gallery {
+.adventures {
     text-align: center;
-    margin: 50px 0;
-    padding: var(--padding20);
-    background-color: var(--background2);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--background1);
+    max-width: 1500px;
 }
 
-.gallery h2 {
+.adventures h2 {
     font-size: 3rem;
+    color: var(--primary-color);
     margin-bottom: 20px;
-    color: var(--primary-color);
 }
 
-.gallery-container {
+.adventure-gallery {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
 
-.gallery-item {
+.adventure-item {
     text-align: center;
-    max-width: 200px;
-    margin: 0 auto;
+    flex: 1;
+    max-width: 180px;
 }
 
-.gallery-item img {
-    width: 100%;
+.adventure-item img {
+    width: 130%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.gallery-item p {
-    font-size: 1.2rem;
+.adventure-item figcaption {
+    font-size: 1.5rem;
     color: var(--primary-color);
-    margin-top: 3px;
+    font-style: italic;
+    margin-top: 5px;
 }
+
 
 .footer {
     background-color: var(--primary-color); 
