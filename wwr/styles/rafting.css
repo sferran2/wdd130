@@ -191,8 +191,10 @@ section img {
     text-align: center;
     margin: 50px auto;
     padding: 20px;
-    background-color: var(--background1);
-    max-width: 1500px;
+    background-color: var(--background2);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
 }
 
 .adventures h2 {
@@ -203,31 +205,31 @@ section img {
 
 .adventure-gallery {
     display: flex;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: space-around;
+    gap: 1px;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /
 }
 
 .adventure-item {
     text-align: center;
     flex: 1;
-    max-width: 180px;
 }
 
 .adventure-item img {
-    width: 130%;
+    width: 600px;
     height: auto;
-    margin-bottom: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
 }
 
 .adventure-item figcaption {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--primary-color);
     font-style: italic;
-    margin-top: 5px;
+    margin-top: 1px;
 }
-
 
 .footer {
     background-color: var(--primary-color); 
