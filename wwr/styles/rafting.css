@@ -208,7 +208,7 @@ section img {
     justify-content: space-around;
     gap: 1px;
     align-items: flex-start;
-    flex-wrap: nowrap; /
+    flex-wrap: nowrap; 
 }
 
 .adventure-item {
