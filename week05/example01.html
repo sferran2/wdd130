@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
+<body>
+
+    <h2>Text input fields</h2>
+    
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe">
+    </form>
+    
+    <p>Note that the form itself is not visible.</p>
+    
+    <p>Also note that the default width of text input fields is 20 characters.</p>
+    
+    
+
+
+
+    <h2>Radio Buttons</h2>
+    <p>Choose your favorite Web language:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form> 
+
+    <h3>Checkboxes</h3>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h4>HTML Forms</h4>
+
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+    
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    
+    <h5>The name Attribute</h5>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" value="John"><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    <p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
+    <p>New Website</p>
+    <div class="wrapper">
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div>
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" name="photo">
+          </div>
+          <button>Save</button>
+        </form>
+      </div>
+
+      <div class="wrapper">
+        <form>
+          <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="web.dev">
+        <label for="subscribe">Subscribe to web.dev?</label>
+          </div>
+          <button>Save setting</button>
+        </form>
+      </div>
+
+      <div class="wrapper">
+        <form action="https://codepen.io/web-dot-dev/pen/7225931596b7eeafc448ad55d9c980fd" target="-blank">
+          <div>
+            <label for="mountain">What is the highest mountain in Africa?</label>
+            <select id="mountain" name="mountain">
+              <option value="everest">Mount Everest</option>
+              <option value="kilimanjaro">Mount Kilimanjaro</option>
+              <option value="meru">Mount Meru</option>
+            </select>
+          </div>
+          <button>Save</button>
+        </form>
+      </div> 
+      
+      <div class="wrapper">
+        <form>
+          <div>
+            <label for="color">What is your favorite color?</label>
+            <select id="color" name="color">
+      <option value="orange">Orange</option>
+      <option selected value="pink">Pink</option>
+    </select>
+          </div>
+          <button>Save</button>
+        </form>
+      </div>
+
+</body>
+</html>
