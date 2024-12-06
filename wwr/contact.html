@@ -28,45 +28,47 @@
     <main class="main">
         <h1>CONTACT US </h1>
         <div class="form-container">
-            <fieldset class="left-column">
-                <legend>Need to get in contact with us!</legend>
-                <p>Fill out the form with your inquiry or find the department email below.</p>
-                <div class="form-group">
-                    <label for="fullname">Full name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                </div>
-                <div class="form-group">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
-                    
-                </div>
-                <div class="form-radio">
-                    <label>Purpose of your message:</label>
-                    <label>
-                        <input type="radio" id="inquiry" name="message" value="General Inquiry">
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" id="question" name="message" value="Reservation Question">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" id="suggestion" name="message" value="Website Suggestion">
-                        Website suggestion
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="message">What can we help you with?</label>
-                    <textarea id="message" name="message" rows="15"></textarea>
-                </div>
-                <div class="form-checkbox">
-                    <label>
-                        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
-                        Subscribe me to the newsletter.
-                    </label>
-                </div>
-                <button type="submit">Send message</button>
-            </fieldset>
+            <form action="submit-form.php" method="POST">
+                <fieldset class="left-column">
+                    <legend>Need to get in contact with us!</legend>
+                    <p>Fill out the form with your inquiry or find the department email below.</p>
+                    <div class="form-group">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-group">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                        
+                    </div>
+                    <div class="form-radio">
+                        <label>Purpose of your message:</label>
+                        <label>
+                            <input type="radio" id="inquiry" name="message" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" id="question" name="message" value="Reservation Question">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" id="suggestion" name="message" value="Website Suggestion">
+                            Website suggestion
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">What can we help you with?</label>
+                        <textarea id="message" name="message" rows="15"></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <label>
+                            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                            Subscribe me to the newsletter.
+                        </label>
+                    </div>
+                    <button type="submit">Send Your Message to Us</button>
+                </fieldset>
+            </form>
             <fieldset class="right-column">
                 <legend>Mija Women Rafting Co</legend>
                 <div>
@@ -75,7 +77,7 @@
                     <p><strong>Email:</strong> hello@mijawomenrafting.com</p>
                 </div>
                 <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.148113659086!2d-81.37689018964892!3d28.53526747561663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b03227634b7%3A0x123118f6eca0cfe2!2s539%20Delaney%20Ave%2C%20Orlando%2C%20FL%2032801!5e0!3m2!1sen!2sus!4v1733438271036!5m2!1sen!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.148113659086!2d-81.37689018964892!3d28.53526747561663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77b03227634b7%3A0x123118f6eca0cfe2!2s539%20Delaney%20Ave%2C%20Orlando%2C%20FL%2032801!5e0!3m2!1sen!2sus!4v1733438271036!5m2!1sen!2sus" width="300" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <h3> Contact our Departments </h3>
                 <div class="image-row">
