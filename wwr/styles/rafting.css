@@ -353,13 +353,14 @@ legend {
 
 p{
     font-size: 20px;
+    color:#000;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #555;
+    color: #000;
 }
 
 input, textarea, select {
@@ -378,7 +379,7 @@ textarea {
 button {
     width: 60%;
     padding: 10px;
-    background-color:#769FB6;
+    background-color:#415e53;
     color: white;
     border: none;
     border-radius: 5px;
@@ -406,21 +407,21 @@ button:hover {
 }
 
 .image-item {
-    text-align: center; /* Center the text below each image */
-    max-width: 150px; /* Set a maximum width for each item */
+    text-align: center; 
+    max-width: 150px; 
 }
 
 .image-item img {
-    width: 100%; /* Ensure images fit their container */
+    width: 100%;
     height: auto;
-    border-radius: 8px; /* Add rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visuals */
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .image-item p {
     margin-top: 10px;
     font-size: 16px; /* Adjust font size */
-    color: #333;
+    color: #000;
     font-weight: bold;
 }
 
@@ -446,3 +447,5 @@ h3{
     font-weight: bold;
     color: #333;
 }
+
+
