@@ -441,3 +441,8 @@ button:hover {
     color:beige;
 }
 
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
