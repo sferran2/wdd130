@@ -101,7 +101,7 @@ header {
 .hero article p {
     flex: 1;
     font-size: 1.2rem;
-    color: var(--second-color)
+    color: white;
 }
 
 .history {
