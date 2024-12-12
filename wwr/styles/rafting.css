@@ -27,8 +27,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
     align-items: center;
     padding: var(--padding20);
     background-color: var(--primary-color);
@@ -43,14 +43,14 @@ header {
 }
 
 .logo-container{
-    display: flex;
-    align-items: center;
+    grid-column: 1; 
+    justify-self: end; 
     margin-right: auto;
 }
 
 .nav {
-    display: flex;
-    margin-left: auto;
+    grid-column: 3; 
+    justify-self: start; 
 }
 
 .nav-list {
