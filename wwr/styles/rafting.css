@@ -63,7 +63,7 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: var(--background1);
+    color: #f4acab;
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 60px;
@@ -101,7 +101,7 @@ header {
 .hero article p {
     flex: 1;
     font-size: 1.2rem;
-    color: azure;
+    color: #ECEED7;
 }
 
 .history {
