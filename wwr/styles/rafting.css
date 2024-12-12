@@ -63,7 +63,7 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: var(--second-color);
+    color: azure;
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 60px;
