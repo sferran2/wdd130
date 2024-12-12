@@ -63,7 +63,7 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: rgba(230, 34, 90, 0.865);
+    color: var(--background1);
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 60px;
