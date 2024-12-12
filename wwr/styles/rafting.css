@@ -483,25 +483,25 @@ h3{
 }
 
 .hero2 > div {
-    background-color: var(--background2);
+    background-color:azure;
     padding: 20px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     width: 45%;
-    color: white; 
+    color: black; 
 }
 
 .hero2 h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #fff;  
+    color: black; 
 }
 
 .hero2 article p {
     font-size: 1.2rem;
-    color: #ddd;  
+    color:black; 
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -529,7 +529,7 @@ h3{
 
 .left-column2 p {
     font-size: 1.2rem;
-    color:var(--primary-color;
+    color:var(--primary-color);
     margin-bottom: 20px;
 }
 
