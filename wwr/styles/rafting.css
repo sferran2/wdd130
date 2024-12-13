@@ -588,8 +588,8 @@ th, td {
 }
 
 th {
-    background-color: var(--second-color);
-    color: white;
+    background-color: var(--background1);
+    color: black;
     font-size: 20px;
 }
 .book-link {
