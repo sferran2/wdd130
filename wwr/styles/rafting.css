@@ -415,10 +415,25 @@ h3{
     color: white;
     text-align: center;
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 140px;
     margin-right: 40px;
     width: 80%;
+}
+
+.book-trip a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.button4 {
+    background-color: azure;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .book h2 {
