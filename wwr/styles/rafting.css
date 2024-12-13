@@ -640,6 +640,11 @@ li {
     border-radius: 8px;
 }
 
+.state-container h4{
+    font-size: 30px;
+    color: var(--second-color);
+}
+
 .trip-container {
     border-radius: 8px;
     display: grid;
@@ -659,6 +664,7 @@ li {
 .logo-container {
     grid-column: 1; 
     justify-self: end;
+    margin-left: 50px;
 }
 
 
