@@ -595,6 +595,7 @@ th {
 .book-link {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
 tbody tr:nth-child(even) {
